@@ -1,0 +1,17 @@
+{
+  "name": "arquitectura-contemporanea",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^16.11.7",
+    "playwright": "^1.16.3"
+  },
+  "scripts": {
+    "scrap": "ts-node bot/scraper.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}
